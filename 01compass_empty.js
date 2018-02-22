@@ -8,19 +8,19 @@ oriented = function(e) {
             compassHeading = e.alpha;
         }
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = "sun";
+                text_area.textContent = "GIRL";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "shot glass";
+                text_area.textContent = "YOU";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "snack";
+                text_area.textContent = "ROCK";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "bottle";
+                text_area.textContent = "IN CODING";
         }
          //text_area.textContent = compassHeading;
         //calls function to alter content based on heading
