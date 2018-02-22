@@ -12,7 +12,7 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "YOU";
+                text_area.textContent = "YOU <br/>";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
